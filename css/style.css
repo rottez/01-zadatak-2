@@ -1,0 +1,42 @@
+h1 {
+  text-transform: capitalize;
+}
+span {
+  font-weight: bold;
+}
+#pupin {
+  width: 80%;
+  height: auto;
+}
+#signature {
+  width: 25%;
+  height: auto;
+}
+.university {
+  text-align: center;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style-type: none;
+  display: inline;
+}
+li>a {
+  padding-right: 10px;
+  text-decoration: none;
+  color: #333;
+}
+a:hover {
+  color: orange;
+  transition: 0.1s;
+}
+.wrapper{
+  width: 1000px;
+  margin: 0 auto;
+}
+.pupin-coils-grid{
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
